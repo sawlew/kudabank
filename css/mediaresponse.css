@@ -1,0 +1,121 @@
+@media only screen and (max-width:1000px){
+    body{
+        flex-direction: column;
+    }
+    .menu-bar{
+        flex-direction: row;
+        width: 80%;
+        height: 80px;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+    .container{
+        width: 80vw;
+        padding: 10px;
+    }
+    .header{
+        text-align: center;
+    }
+    #name{
+        width: 80%;
+    }
+
+    .container1{
+        width: 80%;
+    }
+    .prof-details p{
+        margin-left: 10px;
+        font-size: smaller;
+    }
+    .tabs{
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width:930px){
+    .overflow{
+        width: 90%;
+        margin: auto;
+        /* border: 1px solid yellow; */
+        overflow-x: scroll;
+    }
+    .overflow::-webkit-scrollbar{
+        display: none;
+    }
+    .options{
+        width: 800px;
+    }
+}
+@media only screen and (max-width:700px){
+    .send-money-container{
+        width: 90%;
+    }
+    .row-view{
+        /* padding: 0; */
+        width: 90%;
+    }
+    .first-grouping{
+        /* border: 1px solid yellow; */
+        width: 100%;
+        
+    }
+    .detailing{
+        /* border: 1px solid red; */
+        width: 90%;
+    }
+    .ben, .sub-detail{
+        font-size: 0.8rem;
+    }
+    .new{
+        font-size: 0.5rem;
+        margin: 0 10px;
+    }
+
+@media only screen and (max-width:500px) {
+    .money{
+        font-size: 1.3rem;
+    }
+    .convert-key{
+        font-size: 1rem;
+        margin-left: 3px;
+    }
+    .history{
+        flex-direction: column;
+        align-items: start;
+    }
+    .debit{
+        margin-top: 5px;
+        margin-left: 50px;
+    }
+}
+}
+@media only screen and (max-width:400px){
+    .forward-icon{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width:345px){
+    .tabs{
+        font-size: 0.8rem;
+    }
+    .money{
+        font-size: 0.8rem;
+    }
+    .convert-key{
+        font-size: 0.6rem;
+    }
+    .handler p, .account-name p, .debit{
+        font-size: 0.7rem;
+    }
+    .capsule{
+        width: 20%;
+    }
+    .menu{
+        width: 50px;
+        height: 50px;
+    }
+    .menu img{
+        width: 15px;
+    }
+}

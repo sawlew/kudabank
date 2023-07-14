@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bank</title>
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/pay.css">
+    <link rel="stylesheet" href="css/mediaresponse.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <!-- <form action=""> -->
+        <div class="menu-bar">
+            <div class="capsule">
+                <div class="menu menu1" id="home-bg" onclick="home()"><img src="icon/home.png" alt="" width="30px"></div>
+                <span class="menu-title">Home</span>
+            </div>
+            
+            <div class="capsule">
+                <div class="menu" id="pay-bg" onclick="pay()"><img src="icon/send.png" alt=""></div>
+                <span class="menu-title">Pay</span>
+            </div>
+            
+            <div class="capsule">
+                <div class="menu" id="invest-bg" onclick="invest()"><img src="icon/chart.png" alt="" width="25px"></div>
+                <span class="menu-title">Invest</span>
+            </div>
+            
+            <div class="capsule">
+                <div class="menu" id="card-bg" onclick="card()"><img src="icon/card.png" alt="" width="25px"></div>
+                <span class="menu-title">Card</span>
+            </div>
+            
+            <div class="capsule">
+                <div class="menu" id="more-bg" onclick="more()"><img src="icon/menu.png" alt="" width="25px"></div>
+                <span class="menu-title">More</span>
+            </div>
+            
+        </div>
+        <div class="container1">
+            <div id="Home">
+                <div class="profile">
+                    <div class="prof-details">
+                        <img src="icon/user.png" alt="">
+                        <p class="intro">Hi, <span id="data"></span></p>
+                    </div>
+                    <img src="icon/piechart.png" alt="">
+                </div>
+                <div class="tab">
+                    <div class="tabs tab1">Spend</div>
+                    <div class="tabs tab2">Save</div>
+                    <div class="tabs tab3">Borrow</div>
+                </div>
+                
+                <div class="account">
+                    <div class="balance">
+                        <div class="currency">
+                            <img src="icon/ngr.png" alt="" width="20px">
+                            <span class="dollar">Nigerian Naira</span>
+                        </div>
+                        <div class="money">₦500,058,458.52</div>
+                        <div class="time">Last updated 1 min ago</div>
+                    </div>
+                    <div class="option"><img src="icon/more.png" alt="" width="25px"></div>
+                </div>
+    
+                <div class="functions">
+                    <button><img src="icon/exchange.png" alt="" width="20px"><p class="convert-key">Convert</p></button>
+                    <button><img src="icon/add.png" alt=""><p class="convert-key">Add Money</p></button>
+                </div>
+                <div class="time2">15/06/2023</div>
+                <div class="history">
+                    <div class="account-details">
+                        <!-- <div class="bank-logo"><img src="gtb.png" alt="" width="50px"></div> -->
+                        <div class="bank-logo"></div>
+                        <!-- <img src="gtb Cropped.png" alt="" width="50px" class="bank-logo"> -->
+                        <div class="account-name">
+                            <a href="https://www.linkedin.com/in/sawlew/" class="handler" target="_blank">
+                                <p>Soliu Adeosun</p>
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                                <!-- <img src="icon/twitter.png" alt="" width="15px"> -->
+                            </a>
+                            <p>12:54PM</p>
+                        </div>
+                    </div>
+                    <p class="debit">- ₦500,000</p>
+                </div>
+            </div>
+            
+            <div id="Pay">
+                <h1 class="payy">Pay</h1>
+                <div class="overflow">
+                    <div class="options">
+                        <div class="pay-option">
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Money</span>
+                        </div>
+                        <div class="pay-option">
+                            <ion-icon name="phone-portrait"></ion-icon>
+                            <span>Buy Airtime</span>
+                        </div>
+                        <div class="pay-option">
+                            <ion-icon name="document-text"></ion-icon>
+                            <span>Pay A Bill</span>
+                        </div>
+                        <div class="pay-option">
+                            <ion-icon name="gift"></ion-icon>
+                            <span>Gift Cards</span>
+                        </div>
+                        <div class="pay-option">
+                            <ion-icon name="globe"></ion-icon>
+                            <span>Cardless Payments</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="send-money-container">
+                    <h1>Send Money</h1>
+                    <div class="column-view">
+                        <div class="row-view">
+                            <div class="first-grouping">
+                                <div class="icon-container">
+                                   <img src="icon/kuda.png" alt="kuda logo" width="25px" height="25px"> 
+                                </div>
+                                <div class="detailing">
+                                    <p class="ben">Send to @username</p>
+                                    <p class="sub-detail">Send to any Kuda account for free.</p>
+                                </div>
+                            </div>
+                            <ion-icon name="chevron-forward" class="forward-icon"></ion-icon>
+                        </div>
+                        <div class="row-view">
+                            <div class="first-grouping">
+                                <div class="icon-container">
+                                    <ion-icon name="paper-plane"></ion-icon>
+                                </div>
+                                <div class="detailing">
+                                    <p class="ben">Send to Bank Account</p>
+                                    <p class="sub-detail">Send to a local bank account.</p>
+                                </div>
+                            </div>
+                            <ion-icon name="chevron-forward" class="forward-icon"></ion-icon>
+                        </div>
+                        <div class="row-view last-view">
+                            <div class="first-grouping">
+                                <div class="icon-container">
+                                    <ion-icon name="people"></ion-icon>
+                                </div>
+                                <div class="detailing">
+                                    <div class="ben"><p>Beneficiaries<span class="new">NEW!</span></p></div>
+                                    <p class="sub-detail">Send money to your friends quickly.</p>
+                                </div>
+                            </div>
+                            <ion-icon name="chevron-forward" class="forward-icon"></ion-icon>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="Invest">
+                <marquee behavior="alternate" direction="">
+                    <span id="data"></span>
+                    <h1 class="soon"> <span id="data1"></span>, this feature is coming soon!!!</h1>
+                </marquee>
+            </div>
+            <div id="Card">
+                <marquee behavior="alternate" direction="">
+                    <h1 class="soon">Coming soon</h1>
+                </marquee>
+            </div>
+            <div id="More">
+                <marquee behavior="alternate" direction="">
+                    <h1 class="soon">Coming soon</h1>
+                </marquee>
+                
+            </div>
+            
+            
+        </div><!-- End of container1 -->
+    <!-- </form> -->
+    <script>
+        document.getElementById("data").innerHTML=localStorage.getItem("txtValue");
+        document.getElementById("data1").innerHTML=localStorage.getItem("txtValue");
+    </script>
+</body>
+</html>

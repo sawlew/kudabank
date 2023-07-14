@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro</title>
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/mediaresponse.css">
+</head>
+<body>
+    <form action="index2.html" method="GET">
+        <div class="container">
+            <h1 class="header">Please input your name!</h1>
+            <input type="text" id="name" placeholder="Name">
+            <input type="submit" value="GO" id="button" onclick="getData()">
+        </div>
+    </form>
+    <script>
+        function getData()
+        {
+            var fname = document.getElementById("name").value;
+            localStorage.setItem("txtValue", fname); 
+        }
+    </script>
+</body>
+</html>

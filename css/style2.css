@@ -1,0 +1,195 @@
+.profile{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin: 15px 20px 10px 20px;
+}
+ion-icon{
+    
+    color: white;
+}
+.prof-details{
+    /* width: 120px; */
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+}
+.intro{
+    margin-left: 20px;
+}
+.tab{
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid rgba(0, 0, 0, 0.055);
+    background: rgba(0, 0, 0, 0.096);
+    /* box-shadow: 20px; */
+    border-radius: 8px;
+    margin: 0 20px;
+    
+}
+.tabs{
+    width: 20%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tab1{
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.171);
+}
+.tab1:active, .tab2:active, .tab3:active{
+    background: rgba(0, 0, 0, 0.055);
+}
+.tab2:hover, .tab3:hover{
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.171);
+}
+.account{
+    /* border: 1px solid rgba(255, 255, 255, 0.103); */
+    background: rgba(255, 255, 255, 0.062);
+    border-radius: 8px;
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.currency{
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.dollar{
+    font-size: 10px;
+    margin-left: 10px;
+}
+.money{
+    font-size: 32px;
+    font-weight: 500;
+}
+.time{
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.functions{
+    /* border: 1px solid yellow; */
+    margin: 0 20px 30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    font-size: 24px;
+    width: 49%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.205);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button p{
+    margin-left: 20px;
+}
+.time2{
+    margin: 0 0 5px 25px;
+    font-size: 12px;
+}
+.history{
+    /* border: 1px solid red; */
+    margin: 0 20px 20px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.062);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.bank-logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 10px;
+    border: 5px solid white;
+    background-image: url(../icon/gtb\ Cropped.png);
+    background-size: cover;
+}
+
+.account-details{
+    display: flex;
+    align-items: center;
+}
+.menu-bar{
+    border-radius: 70px;
+    width: 70px;
+    height: 400px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.048);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.185);
+}
+.menu{
+    /* border: 1px solid yellow; */
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.048);
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu:hover{
+    background-color: rgba(255, 255, 255, 0.247) !important;
+}
+.menu:active{
+    background: rgba(0, 0, 0, 0.24) !important;
+}
+.menu1{
+    background-color: rgba(255, 255, 255, 0.247);
+}
+.capsule{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-title{
+    margin-top: 5px;
+    font-size: 10px;
+}
+.handler{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.debit{
+    color: rgba(255, 255, 255, 0.644)
+}
+
+button:active{
+    background: rgba(0, 0, 0, 0.24);
+    border: 1px solid rgba(255, 255, 255, 0.103);
+}
+marquee{
+    position: absolute;
+    top: 45%;
+}
+
+#Pay, #Card, #More{
+    display: none;
+}
+#Invest{
+    visibility: hidden;
+}
