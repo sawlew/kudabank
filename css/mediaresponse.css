@@ -30,6 +30,9 @@
     .tabs{
         font-size: 0.9rem;
     }
+    .soon{
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width:930px){
@@ -93,7 +96,9 @@
     .forward-icon{
         display: none;
     }
-    
+    .soon{
+        font-size: 0.5rem;
+    }
 }
 @media only screen and (max-width:345px){
     .tabs{
