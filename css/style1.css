@@ -22,7 +22,7 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.185);
     border-radius: 10px;
     width: 800px;
-    max-height: 450px;
+    min-height: 450px;
     background-color: rgba(255, 255, 255, 0.048);
     backdrop-filter: blur(10px);
     display: flex;
@@ -35,7 +35,7 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.185);
     border-radius: 10px;
     width: 800px;
-    max-height: 450px;
+    min-height: 450px;
     background-color: rgba(255, 255, 255, 0.048);
     backdrop-filter: blur(10px); 
 }
