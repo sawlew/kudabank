@@ -136,7 +136,7 @@ button p{
     align-items: center;
     justify-content: space-evenly;
     background-color: rgba(255, 255, 255, 0.048);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
     border: 1px solid rgba(255, 255, 255, 0.185);
 }
 .menu{
@@ -182,9 +182,27 @@ button:active{
     background: rgba(0, 0, 0, 0.24);
     border: 1px solid rgba(255, 255, 255, 0.103);
 }
-marquee{
+.slide-container{
+    /* border: 1px solid white; */
     position: absolute;
-    top: 45%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    overflow: hidden;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.slidebar{
+    display: inline-block;
+    white-space: nowrap;
+    animation: slide 10s linear infinite;
 }
 
 #Pay, #Card, #More{
