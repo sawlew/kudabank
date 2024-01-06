@@ -6,7 +6,7 @@
     color: white;
 }
 body{
-    background: url('../icon/wallpaper1.png');
+    background: url('../icon/wallpaper3.jpg');
     /* background-image: linear-gradient(45deg, #250946, #321158); */
     /* background-color: #250946; */
     background-size: cover;
@@ -23,7 +23,7 @@ body{
     border-radius: 10px;
     width: 800px;
     min-height: 450px;
-    background-color: rgba(255, 255, 255, 0.048);
+    background-color: rgba(255, 255, 255, 0.116);
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(30px);
     display: flex;
@@ -37,7 +37,7 @@ body{
     border-radius: 10px;
     width: 800px;
     min-height: 450px;
-    background-color: rgba(255, 255, 255, 0.048);
+    background-color: rgba(255, 255, 255, 0.116);
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(30px);
     position: relative;
